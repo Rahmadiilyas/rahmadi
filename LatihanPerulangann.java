@@ -5,7 +5,7 @@ public class LatihanPerulangann {
         Scanner input = new Scanner(System.in);
         int awal,akhir;
         System.out.println("Bilangan ganjil");
-        System.out.print("Masukkan bilangan awal : ");
+        System.out.print("Masukkan bilangann awal : ");
         awal = input.nextInt();
         System.out.print("Masukkan bilangan akhir : ");
         akhir = input.nextInt();
