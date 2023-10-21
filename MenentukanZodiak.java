@@ -11,7 +11,7 @@ public class MenentukanZodiak {
         System.out.print("Masukkan Bulan lahir Anda : ");
         bulan = input.nextInt();
         
-        if (tanggal > 32 || bulan > 12){
+        if (tanggal > 31 || bulan > 12){
             System.out.println("Tanggal/bulan tidak Valid");
         }else {
             if (tanggal >= 21 && bulan == 3 || tanggal <= 19 && bulan == 4){
