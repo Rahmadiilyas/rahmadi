@@ -1,0 +1,30 @@
+
+package tugaspbo;
+
+import java.lang.reflect.Array;
+import java.util.Scanner;
+
+public class no14 {
+    public static void main(String[] args) {
+
+        Scanner scanner = new Scanner(System.in);
+
+        String kalimat = scanner.nextLine();
+
+        String[] kata = kalimat.split("\s");
+        int maxLength = 0;
+        int iMax = -1;
+        for (int i = 0; i < kata.length; i++) {
+            System.out.println(kata[i]+" : "+kata[i].length());
+            if(kata[i].length() > maxLength){
+                maxLength = kata[i].length();
+                iMax = i;
+            }
+            if(iMax>=0){
+                System.out.println(maxLength+" "+kata[iMax]);
+            }
+        }
+    }
+}
+
+    
